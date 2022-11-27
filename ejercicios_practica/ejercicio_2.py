@@ -28,6 +28,16 @@ texto_2 = str(input('Ingrese la segunda palabra:\n'))
 #   almacenar 1 en res_1
 # - De lo contrario, almacenar 2 en res_1
 
+if texto_1 > texto_2:
+    print ('texto 1 es mayor (alfabéticamente)')
+    res_1 = 1
+else:
+    print ('texto 2 es mayor (alfabéticamente)')
+    res_1 = 2
+print (res_1)
+
+
+
 
 # Imprimir en pantalla la variable res_1
 
@@ -37,6 +47,17 @@ texto_2 = str(input('Ingrese la segunda palabra:\n'))
 # - Si texto_1 tiene más letras, almacenar 1 en res_2
 # - Si texto_2 tiene más letras, almacenar 2 en res_2
 # - Si tienen la misma cantidad de letras, almacenar 3 en res_2
+
+if len (texto_1) > len (texto_2):
+    print (f' {texto_1} texto_1 tiene más letras ')
+    res_2 = 1
+elif len (texto_2) > len (texto_1):
+    print (f'{texto_2} texto_2 tiene más letras ' )
+    res_2 = 2
+else:
+    print (f'{texto_1} tienen la misma cantidad de letras {texto_2}')
+    res_2 = 3
+print(res_2)
 
 
 # Imprimir en pantalla la variable res_2
@@ -48,6 +69,13 @@ texto_2 = str(input('Ingrese la segunda palabra:\n'))
 # - Si la primera letra de texto_1 es mayor,
 #   almacenar 1 en res_3
 # - De lo contrario, almacenar 2 en res_3
+if texto_1[0] > texto_2[0]:
+    print('la primera letra de la primera palabra es mayor')
+    res_3 = 1
+else:
+    print ('la primera letra de la segunda palabra es mayor')
+    res_3 = 2
+print (res_3)
 
 
 # Imprimir en pantalla la variable res_3
