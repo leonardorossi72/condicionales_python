@@ -36,3 +36,16 @@ nota = ""
 # Puede consultar el ejemplo de clase 2 como referencia
 
 # Imprimir en pantalla la variable nota
+puntaje = int(input('Ingrese nota:\n'))
+
+if puntaje >= 90:
+    nota = "A"
+elif puntaje >= 80:
+    nota = "B"
+elif puntaje >= 70:
+    nota = "C"
+elif puntaje >= 60:
+    nota = "D"
+else:
+    nota = "F"
+print (nota)
