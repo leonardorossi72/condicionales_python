@@ -42,3 +42,17 @@ Alumno:
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+numero_1 = int(input('Ingresar número 1:\n'))
+numero_2 = int(input('Ingresar número 2:\n'))
+
+resultado = numero_1 - numero_2
+print('la resta de numero 1 con numero 2 da: ' , resultado)
+if resultado > 0:
+    res_1 = 1
+elif resultado < 0:
+    res_1 = 2
+else:
+    print ('él resultado es 0')
+    res_1 = 3
+print(res_1)
+    
