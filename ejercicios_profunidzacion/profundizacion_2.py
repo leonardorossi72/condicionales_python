@@ -52,3 +52,32 @@ llamada:
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+temperatura_1 = float (input('Ingresar temperatura 1: \n'))
+temperatura_2 = float (input('Ingresar temperatura 2 : \n'))
+temperatura_3 = float (input('Ingresar temperatura 3 \n'))
+
+    
+if temperatura_1 > temperatura_2 and temperatura_3:
+    temperatura_max = temperatura_1
+    print('la mayor temperatura es TEMPERATURA 1')
+if  temperatura_2 > temperatura_3 and temperatura_1:
+    temperatura_max = temperatura_2
+    print('la mayor temperatura es TEMPERATURA 2' )
+elif temperatura_3 > temperatura_1 and temperatura_2:
+    temperatura_max = temperatura_3
+    print('la mayor temperatura es TEMPERATURA 3')
+
+if  temperatura_1 < temperatura_2 and  temperatura_3:
+    temperatura_min = temperatura_1
+    print('La menor temperaatura es TEMPERATURA 1')
+elif temperatura_2 < temperatura_3 and temperatura_1:        
+     temperatura_min = temperatura_2
+     print(' la menor temperatura es TEMPERATURA 2')
+elif temperatura_3 < temperatura_1 and temperatura_2:
+     temperatura_min = temperatura_3
+     print(' la menor temperatura es TEMPERATURA 3')
+
+
+print(temperatura_max)
+print(temperatura_min)
